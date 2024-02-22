@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.whatsapp-img {
+    width: 80px;
+    height: 80px;
+    background-color: #FDBD03;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3em;
+    margin-top: 3em;
+
+
+}
+
+#main {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 10px solid #FDBD03;
+}
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    direction: rtl;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #FDBD03;
+    font-size: 3rem;
+}
+
+p {
+    font-size: 1.3rem;
+    color: #020253;
+    padding-bottom: 10PX;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    direction: rtl;
+}
+
+/* .form-control> */
+input {
+    width: 26EM;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    background-color: #E5EEFF;
+    border-bottom: 5px solid #FDBD03;
+}
+
+.form-control>label {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #020253;
+    padding-top: 30px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    direction: rtl;
+}
+
+.content>input {
+    height: 6em;
+    background-color: #E5EEFF;
+    border-bottom: 5px solid #FDBD03;
+}
+
+.content>label {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #020253;
+}
+
+
+.submit-control {
+    width: 12em;
+    background-color: #FDBD03;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin-top: 10px;
+
+}
+
+.submit-control:hover {
+    background-color: black;
+    color: #FDBD03;
+}
+
+.main-img {
+    width: 50vw;
+    display: flex;
+    align-items: center;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 100px;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+
+.facebook-control {
+    width: 80px;
+    height: 80px;
+    background-color: #FDBD03;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.email-control {
+    width: 80px;
+    height: 80px;
+    background-color: #FDBD03;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.linkedin-control {
+    width: 80px;
+    height: 80px;
+    background-color: #FDBD03;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.whatsapp-control {
+    width: 80px;
+    height: 80px;
+    background-color: #FDBD03;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media(max-width:1200px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 10px;
+    }
+
+    .main-img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 5em;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .phone-img {
+        width: 10em;
+        height: 15em;
+    }
+
+    #main {
+        border-bottom: 0;
+    }
+
+    input {
+        width: 22em;
+    }
+
+    .social {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

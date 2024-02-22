@@ -1,0 +1,797 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#header {
+    width: 100vw;
+    min-height: 6.25em;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 4px solid #4eec9d;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    z-index: 1;
+}
+
+
+
+
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+a {
+    color: #444444;
+    text-decoration: none;
+}
+
+
+.navbar li {
+    font: normal normal 24px/34px heebo;
+}
+
+.nav-link:hover {
+    color: #4eec9d;
+}
+
+
+/* .navbar li:hover {
+    background-color: #13E8F163;
+    height: 5px;
+
+} */
+
+/* p {
+    font: normal normal bold 20px/30px heebo;
+} */
+
+.card {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.card-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: normal normal bold 20px/30px heebo;
+    padding-top: 18px;
+}
+
+.card-text:hover {
+    font: normal normal bold 24px/34px heebo;
+    color: #4eec9d;
+}
+
+.container-main {
+    width: 100vw;
+    min-height: 28.813em;
+    background-image: linear-gradient(#4eec9d, rgba(253, 251, 133, 0.582));
+    /* background-color: #4eec9d; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5em;
+}
+
+.main-title {
+    font: normal normal bold 65px/75px heebo;
+    display: flex;
+    height: 40%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1.3em;
+}
+
+.main-p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: normal normal 22px/32px heebo;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-bottom: 1em;
+    text-align: center;
+
+
+}
+
+.container-lang {
+    width: 100vw;
+    min-height: 6.25em;
+
+}
+
+.lang-used {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.HTML {
+    width: 6.25rem;
+}
+
+.CSS {
+    width: 6.25rem;
+}
+
+.JS {
+    width: 6.25rem;
+}
+
+.BOOTSTRAP {
+    width: 6.25rem;
+}
+
+.container-about-me {
+    width: 100vw;
+    min-height: 44.688em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.thebutton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 16.625rem;
+    height: 2.5rem;
+    border-radius: 25px;
+    background: #4eec9d;
+    font: normal normal bold 22px/30px Heebo;
+    color: black;
+    margin-top: 50px;
+}
+
+.thebutton:hover {
+    color: #4eec9d;
+    background-color: black;
+}
+
+.profile-image2 {
+    width: 8.813em;
+    height: 8.688em;
+    display: flex;
+    margin-top: 60px;
+
+}
+
+.about-me {
+    display: flex;
+    padding-top: 10px;
+    font: normal normal bold 32px/42px heebo;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.about-me-p {
+    display: flex;
+    justify-content: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    /* font: normal normal 22px/32px; */
+    text-align: right;
+}
+
+.card-project {
+    width: 100vw;
+    min-height: 1500px;
+    background-color: #F6F6F6;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding-left: 25%;
+    padding-right: 25%;
+    /* grid-template-columns: repeat(52, 50px);
+    grid-template-rows: repeat(26, 100px); */
+    /*  gap: 4em; */
+    /* flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly; */
+
+
+
+
+    /* grid-template-columns: repeat(5, 405px);
+    grid-template-rows: repeat(5, 520px); */
+
+}
+
+.card-control {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+}
+
+.the-card {
+    width: 24rem;
+    height: 32rem;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 5px 5px #888888;
+    /* box-shadow: 5px 3px 5px 5px gray; */
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body-mid {
+    width: 100%;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card-img-mid {
+    width: 100%;
+    height: 45%;
+}
+
+.h5-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: normal normal bold 22px/32px heebo;
+}
+
+.card-text-mid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 8%;
+    padding-right: 8%;
+    font: normal normal 15px/25px heebo;
+}
+
+
+
+.small-img {
+    width: 26px;
+    height: 26px;
+    display: flex;
+    flex-direction: row;
+    padding-right: 100px;
+    /* position: absolute;
+    left: 140px; */
+}
+
+.a-card-mid {
+    width: 152px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #4eec9d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: normal normal bold 14px/24px heebo;
+    /* margin-bottom: 10px; */
+    /* position: relative;
+    left: 150px;
+    top: 50px; */
+
+}
+
+.a-card-mid:hover {
+    color: #4eec9d;
+    background-color: black;
+}
+
+.my-work {
+    width: 100vw;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+
+    /* display: grid;
+    grid-template-columns: repeat(40, 50px);
+    grid-template-rows: repeat(6, 100px); */
+}
+
+.my-work-h3 {
+    /* grid-column: 25/29;
+    grid-row: 2/3; */
+    font: normal normal bold 28px/38px heebo;
+    color: #444444;
+}
+
+.my-work-p {
+    /* grid-column: 23/31;
+    grid-row: 3/4; */
+    text-align: center;
+    font: normal normal 18px/18px heebo;
+
+}
+
+/* .first-card {
+    grid-column: 13/21;
+    grid-row: 4/8;
+}
+
+.second-card {
+    grid-column: 23/31;
+    grid-row: 4/8;
+}
+
+.third-card {
+    grid-column: 33/41;
+    grid-row: 4/8;
+}
+
+.fourth-card {
+    grid-column: 13/21;
+    grid-row: 10/14;
+}
+
+.fifth-card {
+    grid-column: 23/31;
+    grid-row: 10/14;
+}
+
+.sixth-card {
+    grid-column: 33/41;
+    grid-row: 10/14;
+} */
+
+.container-form {
+    min-width: 100vw;
+    min-height: 59.875em;
+    background-color: #3A3A3A;
+    display: flex;
+    /* grid-template-columns: repeat(25, 100px);
+    grid-template-rows: repeat(25, 100px); */
+}
+
+.img-email {
+    width: 40vw;
+    height: 600px;
+
+}
+
+.contact-us {
+    width: 60vw;
+    display: flex;
+    padding: 0.5em;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10em;
+    direction: rtl;
+}
+
+.container-form-title {
+    font: normal normal 18px/28px heebo;
+    color: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    margin-right: 500px;
+    margin-left: 500px;
+}
+
+.the-h4 {
+    font: normal normal bold 35px/45px heebo;
+    color: #F6F6F6;
+    padding-bottom: 20px;
+}
+
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    margin: 1em 0;
+    width: 548px;
+}
+
+.form-control>label {
+    font: normal normal bold 18px/28px heebo;
+    color: #FFFFFF;
+}
+
+.form-control>input {
+    height: 50px;
+    border: 0;
+    border-bottom: 4px solid #4eec9d;
+    font-size: 1rem;
+}
+
+
+
+
+.form-control>.content {
+    height: 100px;
+}
+
+
+input[type=submit] {
+    width: 166px;
+    height: 50px;
+    border-radius: 25px;
+    background: #4eec9d;
+    font: normal normal bold 22px/30px Heebo;
+    color: #FFFFFF;
+    margin-top: 8px;
+}
+
+#footer {
+    width: 100vw;
+    min-height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: #4eec9d; */
+    background-image: linear-gradient(#4eec9d, rgba(253, 251, 133, 0.582));
+
+}
+
+.footer-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+    font: normal normal normal bold 16px/26px heebo;
+}
+
+.Copyright-info {
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    border-bottom: 6px solid #4eec9d;
+}
+
+.my-name {
+    color: #4eec9d;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font: normal normal normal bold 16px/26px heebo;
+    padding-left: 20px;
+}
+
+.Copyright {
+    color: #4eec9d;
+    display: flex;
+    align-items: center;
+    padding-right: 40px;
+    font: normal normal normal bold 16px/26px heebo;
+}
+
+@media (max-width:1920px) {
+    .container-form-title {
+        margin-left: 18em;
+        margin-right: 16em;
+    }
+
+    .card-project {
+        display: flex;
+        align-items: center;
+        padding-left: 18%;
+        padding-right: 10%;
+    }
+
+    .my-work {
+        display: flex;
+        padding-right: 10%;
+    }
+}
+
+@media (max-width:1200px) {
+    .main-p {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .thebutton {
+        margin-bottom: 50px;
+    }
+
+    .container-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .img-email {
+        width: 100%;
+        height: 30%;
+        /* padding-right: 800px; */
+    }
+
+    .contact-us {
+        height: 70%;
+        padding-bottom: 100px;
+    }
+
+    /* .container-form-title {
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .my-work-h3 {
+        grid-column: 12/16;
+        grid-row: 2/3;
+        font: normal normal bold 26px/36px heebo;
+        color: #444444;
+    }
+
+    .my-work-p {
+        grid-column: 10/18;
+        grid-row: 3/4;
+        text-align: center;
+        font: normal normal 16px/16px heebo;
+
+    }
+
+    .the-card {
+        width: 24rem;
+        height: 26rem;
+    }
+
+    .h5-card {
+        font: normal normal bold 20px/30px heebo;
+    }
+
+    .first-card {
+        grid-column: 4/12;
+        grid-row: 4/8;
+    }
+
+    .second-card {
+        grid-column: 15/23;
+        grid-row: 4/8;
+    }
+
+    .third-card {
+        grid-column: 4/12;
+        grid-row: 9/13;
+    }
+
+    .fourth-card {
+        grid-column: 15/23;
+        grid-row: 9/13;
+    }
+
+    .fifth-card {
+        grid-column: 4/12;
+        grid-row: 14/18;
+    }
+
+    .sixth-card {
+        grid-column: 15/23;
+        grid-row: 14/18;
+    }
+
+
+
+    /* .container-form-title {
+        padding-bottom: 80px;
+        text-align: center;
+    } */
+
+
+}
+
+@media (max-width:756px) {
+
+    /* .hamburger {
+        display: block;
+    } */
+
+    /* .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        background-color: grey;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    .nav-item {
+        margin: 16px 0;
+    }
+
+    .nav-menu:active {
+        left: 0;
+    } */
+
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .navbar li {
+        font: normal normal 20px/30px heebo;
+    }
+
+    .card-text {
+        display: none;
+    }
+
+
+    .main-title {
+        font: normal normal bold 48px/58px heebo;
+    }
+
+    .about-me-p {
+        font: normal normal 18px/28px heebo;
+    }
+
+    .profile-image2 {
+        width: 12em;
+        height: 12em;
+    }
+
+    .card-project {
+        padding-bottom: 30px;
+    }
+
+    .container-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-email {
+        display: flex;
+
+    }
+
+    .form-control {
+        width: 300px;
+    }
+
+    #footer {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+}
+
+@media (max-width:428px) {
+    #header {
+        height: 8em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-img-top {
+        padding-left: 40%;
+
+    }
+
+    .card-control {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding-right: 8%;
+
+    }
+
+    .the-card {
+        display: flex;
+        width: 20rem;
+        height: 23rem;
+    }
+
+    .a-card-mid {
+        width: 122px;
+        height: 20px;
+        font: normal normal bold 12px/22px heebo;
+
+    }
+
+    .h5-card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font: normal normal bold 18px/28px heebo;
+    }
+
+    .card-text-mid {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 8%;
+        padding-right: 8%;
+        font: normal normal 12px/22px heebo;
+    }
+}
+
+/* @media (max-width: 1920px) {
+    .my-work-h3 {
+        grid-column: 18/23;
+        grid-row: 2/3;
+        font: normal normal bold 32px/42px heebo;
+
+    }
+
+    .my-work-p {
+        grid-column: 17/23;
+        grid-row: 3/4;
+        text-align: center;
+        font: normal normal 18px/18px heebo;
+
+    }
+
+    .first-card {
+        grid-column: 6/14;
+        grid-row: 4/8;
+    }
+
+    .second-card {
+        grid-column: 16/24;
+        grid-row: 4/8;
+    }
+
+    .third-card {
+        grid-column: 26/34;
+        grid-row: 4/8;
+    }
+
+    .fourth-card {
+        grid-column: 6/14;
+        grid-row: 10/14;
+    }
+
+    .fifth-card {
+        grid-column: 16/24;
+        grid-row: 10/14;
+    }
+
+    .sixth-card {
+        grid-column: 26/34;
+        grid-row: 10/14;
+    }
+
+    .container-form-title {
+        width: 512px;
+        display: flex;
+        flex-direction: column;
+
+    }
+} */

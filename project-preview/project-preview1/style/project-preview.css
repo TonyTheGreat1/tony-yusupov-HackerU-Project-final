@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#header {
+    width: 100vw;
+    min-height: 6.25em;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 4px solid #4eec9d;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    z-index: 1;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+a {
+    color: #444444;
+    text-decoration: none;
+}
+
+
+.navbar li {
+    font: normal normal 24px/34px heebo;
+}
+
+.nav-link:hover {
+    color: #4eec9d;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.card-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: normal normal bold 20px/30px heebo;
+    padding-top: 18px;
+}
+
+.card-text:hover {
+    font: normal normal bold 24px/34px heebo;
+    color: #4eec9d;
+}
+
+
+.container-main {
+    width: 100vw;
+    min-height: 28.813em;
+    background-color: #4eec9d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5em;
+}
+
+.main-title {
+    font: normal normal bold 65px/75px heebo;
+    display: flex;
+    height: 40%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1.3em;
+}
+
+.main-p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: normal normal 22px/32px heebo;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-bottom: 1em;
+    text-align: center;
+
+
+}
+
+.button {
+    width: 152px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: black;
+    color: #4eec9d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: normal normal bold 14px/24px heebo;
+}
+
+.button:hover {
+    color: #4eec9d;
+    background-color: whitesmoke;
+}
+
+.the-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 80px;
+    gap: 30px;
+
+}
+
+.container-lang {
+    width: 100vw;
+    min-height: 6.25em;
+
+}
+
+.lang-used {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.HTML {
+    width: 6.25rem;
+}
+
+.CSS {
+    width: 6.25rem;
+}
+
+.JS {
+    width: 6.25rem;
+}
+
+.BOOTSTRAP {
+    width: 6.25rem;
+}
+
+.project-img {
+    background-color: #EBFEFF;
+    width: 100vw;
+    height: 1014px;
+}
+
+.project-big {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+
+}
+
+.project-small {
+    display: none;
+}
+
+.Copyright-info {
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    border-bottom: 6px solid #4eec9d;
+}
+
+.my-name {
+    color: #4eec9d;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font: normal normal normal bold 16px/26px heebo;
+    padding-left: 20px;
+}
+
+.Copyright {
+    color: #4eec9d;
+    display: flex;
+    align-items: center;
+    padding-right: 40px;
+    font: normal normal normal bold 16px/26px heebo;
+}
+
+@media (max-width:1200px) {
+    .navbar li {
+        font: normal normal 22px/32px heebo;
+    }
+
+    .card-text {
+        font: normal normal bold 18px/18px heebo;
+    }
+
+    .main-p {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+    .project-big {
+        display: none;
+    }
+
+    .project-small {
+        display: block;
+        display: flex;
+        padding-top: 250px;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width:756px) {
+
+    #header {
+        height: 8em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-img-top {
+        padding-left: 40%;
+
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .navbar li {
+        font: normal normal 20px/30px heebo;
+    }
+
+    .card-text {
+        display: none;
+    }
+
+    .HTML {
+        width: 5.25rem;
+    }
+
+    .CSS {
+        width: 5.25rem;
+    }
+
+    .JS {
+        width: 5.25rem;
+    }
+
+    .BOOTSTRAP {
+        width: 5.25rem;
+    }
+
+}
