@@ -13,3 +13,7 @@ the javascript projects can be found in the "JAVASCRIPT-Project-tony yusupov" fo
 6. pong - to control the blue wall press W/S, and the red press the arrow up/ arrow down.
 
 7. countries API - allow you to search any country you want in the search bar on top.
+
+
+lastly i must mension that i straggled with javascript a lot and had to learn throughout the project 
+and barely managed to finish it in time anyway thanks for you time and enjoy!!! ;)
