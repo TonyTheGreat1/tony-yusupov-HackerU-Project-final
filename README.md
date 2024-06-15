@@ -1,4 +1,4 @@
-the javascript projects can be found in the "JAVASCRIPT-Project-tony yusupov" folder containing 7 projects can also be accessed through the main home.html and navigating to the play center section and clicking the links 
+the javascript projects can be found in the "JAVASCRIPT-Project-tony yusupov" folder containing 7 projects can also be accessed through the main home.html and navigating to the play center section and clicking the links. 
 
 1. Weather projectAPI - which allows you to check the weather all around the globe by simply typing the chosen country/city.
 
@@ -12,4 +12,4 @@ the javascript projects can be found in the "JAVASCRIPT-Project-tony yusupov" fo
 
 6. pong - to control the blue wall press W/S, and the red press the arrow up/ arrow down.
 
-7. countries API - allow you to search any country you want in the search bar on top
+7. countries API - allow you to search any country you want in the search bar on top.
