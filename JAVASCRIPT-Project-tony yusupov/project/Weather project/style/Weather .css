@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/images/blue-sky-2560x1440.jpg);
+    background-repeat: no-repeat;
+    color: white;
+    gap: 20px;
+}
+
+.container {
+    background: rgba(255, 255, 255, .1);
+    backdrop-filter: blur(30px);
+    width: 555px;
+    min-height: 600px;
+    border: 2px solid rgb(255, 255, 255, .2);
+    border-radius: 16px;
+
+}
+
+.container form {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    gap: 10px;
+
+}
+
+.inpuCity {
+    width: 300px;
+    height: 35px;
+    border-radius: 40px;
+    border: 2px solid rgba(36, 35, 35, 0.507);
+    font-size: 1rem;
+    text-transform: capitalize;
+    padding-left: 10px;
+    background: rgba(255, 255, 255, .1);
+    color: white;
+}
+
+button {
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    border: 2px solid rgb(255, 255, 255, .2);
+    cursor: pointer;
+    background: rgba(255, 255, 255, .1);
+    color: white;
+}
+
+button:hover {
+    background-color: rgba(88, 169, 207, 0.651);
+}
+
+.Weather {
+    /* background-color: #ff7d7d; */
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 80px;
+}
+
+/* .Weather img,
+.Weather h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+} */
+
+.Weather img {
+    width: 325px;
+}
+
+h1 {
+    font-size: 2.8rem;
+    font-weight: 600;
+}
+
+p {
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 10px;
+}
+
+.errorDisplay {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: hsla(0, 0%, 0%, 0.75);
+}
