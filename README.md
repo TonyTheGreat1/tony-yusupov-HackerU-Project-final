@@ -1,5 +1,9 @@
 
-שלום מצאתי את הבעיה ששןברת את הקישורים, בהורדת הפרוייקט הוא מוריד את "tony-yusupov-HackerU-Project-final" ובתוך התיקיה הזאת יש התיקיה אחרת באותו השם שמכיל את הפרוייקט, כלומר על מנת  שהכל יעבוד צריך לפתןח את הפרויקט דרך התיקיה השנייה, אני מקווה שההסבר ברור 
+שלום מצאתי את הבעיה ששןברת את הקישורים, בהורדת הפרוייקט הוא מוריד את "tony-yusupov-HackerU-Project-final" ובתוך התיקיה הזאת יש התיקיה אחרת באותו השם שמכיל את הפרוייקט, כלומר על מנת  שהכל יעבוד צריך לפתוח את הפרויקט דרך התיקיה השנייה, אני מקווה שההסבר ברור
+
+
+
+
 
 the javascript projects can be found in the "JAVASCRIPT-Project-tony yusupov" folder containing 7 projects can also be accessed through the main home.html and navigating to the play center section and clicking the links. 
 
